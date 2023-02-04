@@ -22,7 +22,7 @@ public class Fish extends Thread{
     public void run() {
         do {
             try {
-                Thread.sleep(1000);
+                Thread.sleep(5000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
